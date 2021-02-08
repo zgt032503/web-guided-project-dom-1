@@ -62,7 +62,8 @@ const blogLink = document.createElement('a')
 blogLink.textContent = 'Blog'
 blogLink.href = '#'
 
-document.querySelector('nav').appendChild('blogLink');
+document.querySelector('nav').appendChild(blogLink);
+console.log(document.querySelector('nav'))
 
 
 // 👉 7- Making a copy of the card and appending it to the card group
