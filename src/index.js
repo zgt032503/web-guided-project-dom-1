@@ -42,7 +42,7 @@ textFirstCard.textContent = 'stuff about Dogs';
 homeLink.textContent = 'Puppy Palace'
 imageFirstCard.src = 'https://herepup.com/wp-content/uploads/2015/12/Dog-Advice-1-1.jpg'
 //  B- Using .setAttribute to change a few attributes
-
+link1FirstCard.setAttribute('href', 'https://www.pexels.com/search/dog/')
 
 // 👉 5- Changing the styling of an element
 //  A- By changing the class names on the element with the classList API
