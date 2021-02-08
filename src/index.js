@@ -54,7 +54,7 @@ setInterval(() => {
 }, 1000)
 
 //  B- By manipulating inline styles on the element
-
+header.style.fontSize = '2em';
 
 // 👉 6- Creating new elements from scratch and appending them
 // Create a new link inside the nav for "Blog"
