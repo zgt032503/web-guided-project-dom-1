@@ -40,6 +40,7 @@ textFirstCard.textContent = 'stuff about Dogs';
 // 👉 4- Changing any property
 //  A- Using dot notation to change a few attributes
 homeLink.textContent = 'Puppy Palace'
+imageFirstCard.src = 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.thesprucepets.com%2Fthmb%2FEBp990AJt94XwAp7oOAzUtdg9Xg%3D%2F2121x1193%2Fsmart%2Ffilters%3Ano_upscale()%2Fgolden-retriever-puppy-in-grass-923135452-5c887d4146e0fb00013365ba.jpg&imgrefurl=https%3A%2F%2Fwww.thesprucepets.com%2Fwhy-do-people-get-puppies-4047832&tbnid=aglKIQ5G2Jf3-M&vet=12ahUKEwj56eiG9truAhURcs0KHbCrAtYQMygAegUIARCRAg..i&docid=u20QYhEgv7gElM&w=2121&h=1193&q=puppy&ved=2ahUKEwj56eiG9truAhURcs0KHbCrAtYQMygAegUIARCRAg'
 //  B- Using .setAttribute to change a few attributes
 
 
