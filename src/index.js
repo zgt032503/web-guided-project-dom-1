@@ -26,6 +26,8 @@ links.forEach(link => console.log(link.textContent))
 const linksRealArray = Array.from(links)
 // D- use .filter to find the anchor tag with the textContent of "Home"
 console.log(linksRealArray.find(link => link.textContent === 'Home'))
+const homeLink = links[0];
+console.log(homeLink)
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
@@ -37,6 +39,7 @@ textFirstCard.textContent = 'stuff about Dogs';
 
 // 👉 4- Changing any property
 //  A- Using dot notation to change a few attributes
+homeLink.textContent = 'Puppy Palace'
 //  B- Using .setAttribute to change a few attributes
 
 
